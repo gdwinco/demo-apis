@@ -2,10 +2,12 @@
     "swagger": "2.0",
     "info": {
         "title": "Address Book API",
+        "description": "Simple Address Book to help evaluate Apicurio Studio",
         "license": {
             "name": "Apache 2.0",
             "url": "https://www.apache.org/licenses/LICENSE-2.0"
-        }
+        },
+        "version": "1.0"
     },
     "paths": {
         "/addresses": {
