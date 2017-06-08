@@ -17,5 +17,29 @@
             "put": {},
             "delete": {}
         }
+    },
+    "definitions": {
+        "Address": {
+            "title": "Root Type",
+            "description": "The root of the Address type's schema.",
+            "type": "object",
+            "properties": {
+                "address1": {
+                    "type": "string"
+                },
+                "city": {
+                    "type": "string"
+                },
+                "state": {
+                    "type": "string"
+                },
+                "zip": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "string"
+                }
+            }
+        }
     }
 }
