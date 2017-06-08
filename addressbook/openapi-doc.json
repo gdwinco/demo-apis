@@ -2,5 +2,16 @@
     "swagger": "2.0",
     "info": {
         "title": "Address Book API"
+    },
+    "paths": {
+        "/addresses": {
+            "get": {},
+            "delete": {}
+        },
+        "/addresses/{addressid}": {
+            "get": {},
+            "put": {},
+            "delete": {}
+        }
     }
 }
